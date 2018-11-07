@@ -29,7 +29,7 @@ Instantiate an Amazon S3 client:
 ```php
 $s3 = new S3Client([
     'version' => 'latest',
-    'region'  => 'us-east-1',
+    'region'  => 'id-jkt-1',
     'credentials' => [
         'key'    => 'YOUR_ACCESS_KEY_HERE',
         'secret' => 'OUR_SECRET_KEY_HERE',
