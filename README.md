@@ -52,7 +52,6 @@ try {
         'Key'        => $key,
         'SourceFile' => $file_Path,
     ]);
-    print_r($result);
 } catch (S3Exception $e) {
     echo $e->getMessage();
 }
@@ -84,7 +83,6 @@ try {
 	}
 } catch (S3Exception $e) {
 	echo $e->getMessage();
-    echo "\n";
 }
 ```
 
@@ -120,7 +118,7 @@ Delete an empty bucket:
 ```php
 try {
     $result = $s3->deleteBucket([
-        'Bucket' => 'delete-bucket',
+        'Bucket' => 'YOUR_BUCKET_NAME_HERE',
     ]);
 } catch (S3Exception $e) {
     echo $e->getMessage();
