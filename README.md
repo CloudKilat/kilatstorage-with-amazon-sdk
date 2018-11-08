@@ -32,7 +32,7 @@ $s3 = new S3Client([
     'region'  => 'id-jkt-1',
     'credentials' => [
         'key'    => 'YOUR_ACCESS_KEY_HERE',
-        'secret' => 'OUR_SECRET_KEY_HERE',
+        'secret' => 'YOUR_SECRET_KEY_HERE',
     ],
     'endpoint' => 'http://s3-id-jkt-1.kilatstorage.id/'
 ]);
